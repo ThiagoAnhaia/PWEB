@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(104, 133, 226);
+  margin: 0;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-size: 20px;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+  width: 100;
+}
+
+.info {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+article {
+  float: center-left;
+  width: 960px;
+  height: auto;
+  border: solid 1px rgb(4, 0, 255);
+  background-color: LavenderBlush;
+  padding: 15px;
+  margin: 15px auto;
+  color: #000000;
+}
+
+article p {
+  color: black;
+  /* margin-left: 10%;*/
+}
+
+article img {
+  border: solid;
+  float: left;
+  width: 140px;
+  height: 140px;
+  margin: 25px;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+}
