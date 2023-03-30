@@ -1,0 +1,50 @@
+#responsivo {
+  height: 25em;
+  width: 25em;
+}
+
+body {
+  margin: 0px;
+}
+
+@media only screen and (max-device-width: 500px) {
+  #responsivo {
+    max-width: 100px;
+    background-color: grey;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 768px) {
+  #responsivo {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  #responsivo {
+    position: fixed;
+    height: 100%;
+    background-color: pink;
+  }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1080px) {
+  #responsivo {
+    width: 50em;
+    height: 25em;
+    background-color: red;
+  }
+}
+@media only screen and (min-device-width: 1081px) and (max-device-width: 1366px) {
+  #responsivo {
+    border-radius: 50%;
+    background-color: blue;
+  }
+}
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1920px) {
+  #responsivo {
+    display: none;
+  }
+  body {
+    background-color: gold;
+  }
+}
