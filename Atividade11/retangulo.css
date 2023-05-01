@@ -1,0 +1,20 @@
+*{
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(248, 186, 217);
+    color: rgb(24, 23, 23);
+}
+h1{
+    letter-spacing: 5px;
+    color: rgb(17, 16, 16);
+}
+#btnCalcular{
+    background-color: brown;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+#btnLimpar{
+    background-color: rgb(246, 250, 44);
+    color: black;
+    font-weight: bold;
+}
