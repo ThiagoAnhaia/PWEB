@@ -1,0 +1,12 @@
+html {
+  background-color: rgb(62, 130, 185);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(27, 27, 29);
+  text-decoration: underline rgb(255, 94, 0);
+}
+h2 {
+  font-size: 20px;
+}
